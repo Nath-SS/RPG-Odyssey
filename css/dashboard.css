@@ -1,0 +1,116 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.custom-navbar {
+    background-color: #3a3939; /* Cor personalizada para a navbar */
+}
+
+.custom-navbar-brand {
+    color: #ff4c4c; /* Cor personalizada para o navbar-brand */
+}
+
+.custom-navbar-brand:hover {
+    color: #ff4c4c; /* Cor personalizada ao passar o mouse no navbar-brand */
+}
+
+.navbar-toggler {
+    border-color: #ff4c4c; /* Cor da borda do botão toggle */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23ff4c4c' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    color: #ff4c4c; /* Títulos em vermelho */
+    background-color: #3a3939; /* Fundo do título */
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card-link {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from parent element */
+}
+
+.card {
+    background: linear-gradient(145deg, #2e2e2e, #3c3c3c); /* Fundo degradê */
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Sombra */
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efeito de salto */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+}
+
+.card-title {
+    font-family: 'Cinzel', serif;
+    color: #ff4c4c; /* Título do card em vermelho */
+}
+
+.card-mesa{
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Cobrir o card completamente */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-portrait{
+    width: 100%;
+    height: 350px; /* Altura da imagem relativa ao card */
+    object-fit: cover; /* Cobrir o card completamente */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 10px;
+    height: 40%; /* Altura do conteúdo relativa ao card */
+}
+
+.btn-primary {
+    background-color: #ff4c4c; /* Botão em vermelho */
+    border-color: #ff4c4c;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #e04444; /* Cor ao passar o mouse no botão */
+    transform: translateY(-5px); /* Efeito de salto */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+    outline: none;
+}
+
+.btn-secondary {
+    background-color: #948f8f; 
+    border-color: #7e7979;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-secondary:hover {
+    background-color: #646464; /* Cor ao passar o mouse no botão */
+    transform: translateY(-5px); /* Efeito de salto */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+    outline: none;
+}
+
+.modal-content {
+    background-color: #1c1c1c; /* Cor de fundo do modal */
+    color: #e0e0e0; /* Cor do texto */
+}
+.modal-header {
+    border-bottom: 1px solid #485460; /* Borda do cabeçalho do modal */
+}
+.modal-footer {
+    border-top: 1px solid #485460; /* Borda do rodapé do modal */
+}

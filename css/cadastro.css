@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #2e2e2e; /* Caixa com fundo um pouco mais claro */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Sombra */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #ff4c4c; /* Título em vermelho, similar ao esquema de cores de Castlevania */
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Cinzel', serif;
+    font-size: medium;
+    display: block;
+    margin: 5px 0 5px;
+}
+
+input, select, button {
+    font-size: medium;
+    width: calc(100% - 22px); /* Ajuste de largura para compensar padding e borda */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Borda escura */
+    border-radius: 5px;
+    background-color: #3c3c3c; /* Fundo do input e select */
+    color: #fff; /* Texto do input e select */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+input:focus, select:focus{
+    border: 1px solid #ff4c4c;
+    background-color: #3c3c3c;
+    color: #fff;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Sombra */
+
+}
+
+button {
+    background-color: #ff4c4c; /* Botão em vermelho */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Transições para cores, transformação e sombra */
+}
+
+button:hover {
+    background-color: #e04444; /* Cor ao passar o mouse no botão */
+    transform: translateY(-2px); /* Efeito de salto */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    color: #ff4c4c; /* Links em vermelho */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
