@@ -3,7 +3,7 @@
 class Conexao{
 
     public static function pegarConexao(){
-        /*$servidor = "localhost";
+        $servidor = "localhost";
         $banco = "rpgodyssey";
         $usuario = "root";
         $senha = "";	
