@@ -3,17 +3,10 @@
 class Conexao{
 
     public static function pegarConexao(){
-        //offline
         /*$servidor = "localhost";
         $banco = "rpgodyssey";
         $usuario = "root";
-        $senha = "";*/
-
-        //online
-        $servidor = "fdb1030.awardspace.net";
-        $banco = "3683152_rpgodyssey";
-        $usuario = "3683152_rpgodyssey";
-        $senha = "Teste123456";	
+        $senha = "";	
 
         try{
             $conexao = new PDO("mysql:host=$servidor;dbname=$banco",$usuario,$senha);
